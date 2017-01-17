@@ -14,4 +14,4 @@ _Dependency-locker_ can be started just running into your project folder
 
     $ dependency-locker [-r]
 
-the option `-r` allows to rewrite the `package.json`; by the way if a file `_package.json` is not found will be created with a backup of your `package.json`.
+the option `-r` allows to rewrite the `package.json`; by the way if a file `_package.json` is not found will be created with a backup of your `package.json`; withour the `-r` option a `package_solved.json` will be written.
