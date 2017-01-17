@@ -15,7 +15,7 @@ var fs = require('fs'),
 
 fs.readFile(packageFileName, function (err, data) {
 	if (err) {
-		console.log((space + 'No ' + packageFileName + 'found').red());
+		console.log((space + 'No ' + packageFileName + ' found').red());
 		process.exit();
 	}
 	orig_pack = JSON.parse(data);
