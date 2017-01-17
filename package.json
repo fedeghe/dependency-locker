@@ -1,0 +1,22 @@
+{
+  "name": "dependency-locker",
+  "version": "0.0.1",
+  "description": "It redefines the dependencies uniquely",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://fedeghe@github.com/fedeghe/dependency-locker.git"
+  },
+  "keywords": [
+    "dependencies",
+    "uniquely",
+    "defined",
+    "dependencies"
+  ],
+  "author": "federico.ghedina@gmail.com",
+  "license": "MIT"
+}
