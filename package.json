@@ -1,6 +1,6 @@
 {
   "name": "dependency-locker",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "It redefines the dependencies uniquely",
   "main": "index.js",
   "bin": "index.js",
@@ -12,9 +12,10 @@
     "url": "https://fedeghe@github.com/fedeghe/dependency-locker.git"
   },
   "keywords": [
-    "dependencies",
-    "uniquely",
-    "defined",
+    "dependency locker",
+    "dependency lock",
+    "dependencies locker",
+    "dependencies lock",
     "dependencies"
   ],
   "author": "federico.ghedina@gmail.com",
