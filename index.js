@@ -9,7 +9,7 @@ var fs = require('fs'),
 	backupPackageFileName = '_package.json',
 	outFileName = rewritePackage ? 'package.json' : 'package_solved.json',
 	packageInfo = fs.existsSync(__dirname + '/package.json') ? require(__dirname + '/package.json') : {},
-	log = function (msg) {console.log(' ' + msg)}; 
+	log = function (msg) {console.log('• ' + msg)}; 
 
 fs.readFile(packageFileName, function (err, data) {
 	if (err) {
@@ -41,7 +41,7 @@ function start(){
 
 	function scan(pFolders){
 		var counter = pFolders.length;
-		log('Dependencies locked: ' + counter);
+		log('Dependencies to be locked: ' + counter);
 		if (counter == 0) {
 			log('...nothing to do');
 			return;
