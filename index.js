@@ -31,7 +31,7 @@ function start(){
 	fs.readdir(modulesFolder, function (err, files) {
 		var pFolders = [];
 		files.forEach(function (folder){
-			if (folder.match(/\..*/)) {
+			if (folder.match(/^\..*/)) {
 	  			return;
 	  		}
 	  		pFolders.push(folder);
